@@ -1,0 +1,36 @@
+input {
+  border: none;
+  text-decoration: underline;
+  font-size: 17px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  text-align: center;
+}
+.button-add {
+  background-color: blueviolet;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  color: white;
+}
+.button-rmv {
+  border-radius: 30px;
+  border: none;
+  padding: 5px;
+  background-color: paleturquoise;
+}
+.main {
+  display: flex;
+  gap: 5px;
+}
+.lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.lista-item {
+  color: white;
+  width: 100px;
+}
