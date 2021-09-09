@@ -5,8 +5,10 @@ import Todolist from "./components/Todolist";
 function App() {
   const [todos, setTodos] = useState([]);
   function addTodo(newTodo, setList) {
-    setTodos([...todos, newTodo]);
-    setList("");
+    if (newTodo !== "") {
+      setTodos([...todos, newTodo]);
+      setList("");
+    }
   }
   function handleTodo(element) {
     const newtodos = todos.filter((value, index) => {
